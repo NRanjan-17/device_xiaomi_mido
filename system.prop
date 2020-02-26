@@ -59,6 +59,9 @@ ro.egl.blobcache.multifile=true
 ro.egl.blobcache.multifile_limit=33554432
 vendor.display.enable_default_color_mode=1
 
+# fastbootd
+ro.fastbootd.available=true
+
 # Fingerprint
 persist.qfp=false
 
