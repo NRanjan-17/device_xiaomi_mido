@@ -12,6 +12,7 @@ cc_binary {
 
     shared_libs: [
         "libbinder",
+        "libbase",
         "libcutils",
         "liblog",
         "libhidlbase",
