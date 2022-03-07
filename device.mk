@@ -142,6 +142,10 @@ PRODUCT_PACKAGES += \
  # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# Call recording
+PRODUCT_PACKAGES += \
+    com.google.android.apps.dialer.call_recording_audio.features.xml
+
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \

@@ -1,0 +1,7 @@
+prebuilt_etc {
+    name: "com.google.android.apps.dialer.call_recording_audio.features.xml",
+    sub_dir: "permissions",
+    src: "com.google.android.apps.dialer.call_recording_audio.features.xml",
+    filename_from_src: true,
+    product_specific: true,
+}
