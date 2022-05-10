@@ -161,6 +161,8 @@ on charger
     start vendor.hvdcp_opti
     start vendor.power_off_alarm
     restart thermal-engine
+    chown system system /sys/class/leds/green/brightness
+    write /sys/class/leds/green/brightness 255
 
 on boot
 # access permission for wlan
