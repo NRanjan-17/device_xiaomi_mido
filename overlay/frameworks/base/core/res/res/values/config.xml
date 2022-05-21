@@ -554,4 +554,7 @@
     
     <!-- Ignore location indicator for the Phone Services -->
     <string name="config_systemNotificationIntelligence" translatable="false">com.android.phone</string>     
+    
+    <!-- True if the device supports Sustained Performance Mode -->
+    <bool name="config_sustainedPerformanceModeSupported">true</bool>
 </resources>
