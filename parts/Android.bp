@@ -16,7 +16,7 @@ android_app {
     overrides: ["AudioFX"],
 
     static_libs: [
-        "org.pixelexperience.settings.resources",
+        "org.lineageos.settings.resources",
     ],
 
     optimize: {

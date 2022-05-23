@@ -490,7 +490,13 @@
 
     <!-- The name of the package that will hold the assistant role by default. -->
     <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
-    
+
+    <!-- The list of components which should be automatically disabled for a specific device. -->
+    <string-array name="config_deviceDisabledComponents" translatable="false">
+        <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
+        <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
+    </string-array>
+
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
          where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
@@ -541,9 +547,59 @@
     
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
-
+    
     <!-- Whether to select voice/data/sms preference without user confirmation. -->
     <bool name="config_voice_data_sms_auto_fallback">true</bool>
+
+    <!-- Hardware keys present on the device, stored as a bit field.
+         This integer should equal the sum of the corresponding value for each
+         of the following keys present:
+             1 - Home
+             2 - Back
+             4 - Menu
+             8 - Assistant (search)
+            16 - App switch
+            32 - Camera
+            64 - Volume rocker
+         For example, a device with Home, Back and Menu keys would set this
+         config to 7. -->
+    <integer name="config_deviceHardwareKeys">83</integer>
+
+    <!-- Control 
+    the behavior when the user long presses the app switch button.
+            0 - Nothing 1 - Menu key 2 - Recent apps view in SystemUI 3 
+            - Launch assist intent 4 - Voice Search 5 - In-app Search 6 
+            - Launch camera 7 - Sleep 8 - Last app 9 - Toggle split 
+            screen
+         This needs to match the enums in 
+         sdk/src/java/org/lineageos/internal/util/DeviceKeysConstan.ts.java.
+    -->
+    <integer name="config_longPressOnAppSwitchBehavior">9</integer>
+
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when
+         user switches -->
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
+
+    <!-- Whether to post reset runnable for all clients. Needed for some older
+         vendor fingerprint HAL implementations. -->
+    <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
+
+    <!-- Button backlight control. Possible values are:
+            0 - Not supported
+            1 - Supported, but only on/off mode
+            2 - Supported with variable brightness control
+    -->
+    <integer name="config_deviceSupportsButtonBrightnessControl">1</integer>
+    
+    <!-- Button brightness --> 
+    <bool name="config_button_brightness_support">true</bool>
+
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">true</bool>
+
+    <!-- List of comma separated package names for which we the system will not show crash, ANR,
+         etc. dialogs. -->
+    <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
 
     <!-- Support both wifi frequencies -->
     <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
@@ -553,7 +609,7 @@
     <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
     
     <!-- Ignore location indicator for the Phone Services -->
-    <string name="config_systemNotificationIntelligence" translatable="false">com.android.phone</string>     
+    <string name="config_systemNotificationIntelligence" translatable="false">com.android.phone</string>
     
     <!-- True if the device supports Sustained Performance Mode -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
