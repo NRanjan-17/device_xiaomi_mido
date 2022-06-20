@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # PixelExperience specific flags
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
