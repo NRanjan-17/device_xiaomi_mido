@@ -69,3 +69,6 @@
 
 # Vibrator
 /sys/module/qti_haptics/parameters/vmax_mv_override          u:object_r:sysfs_vibrator:s0
+
+# backlight
+/(vendor|system/vendor)/bin/init\.backlight\.sh      u:object_r:init-backlight_exec:s0
