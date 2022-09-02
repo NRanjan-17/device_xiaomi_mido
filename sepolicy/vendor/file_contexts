@@ -68,3 +68,6 @@
 
 # Dolby
 /(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@1\.0-service                     u:object_r:hal_dms_default_exec:s0
+
+# backlight
+/(vendor|system/vendor)/bin/init\.backlight\.sh      u:object_r:init-backlight_exec:s0
