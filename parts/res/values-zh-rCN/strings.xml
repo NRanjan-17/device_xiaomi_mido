@@ -17,14 +17,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Ambient Display -->
-     <string name="ambient_enable">使用環境顯示</string>
+     <string name="ambient_enable">使用环境显示</string>
 
     <!-- Audio Amplification -->
-    <string name="audio_title">音頻放大</string>
-    <string name="audio_summary">聲控設置</string>
-    <string name="headphone_gain">耳機增益</string>
-    <string name="microphone_gain">麥克風增益</string>
-    <string name="speaker_gain">揚聲器增益</string>
+    <string name="audio_title">音量增加</string>
+    <string name="audio_summary">耳控设置</string>
+    <string name="headphone_gain">耳机增益</string>
+    <string name="microphone_gain">麦克风增益</string>
+    <string name="speaker_gain">扬声器增益</string>
 
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">数值: <xliff:g id="v">%s</xliff:g></string>
@@ -81,38 +81,38 @@
     <string name="dirac_preset_soft_treble">柔和高音</string>
 
     <!-- kcal -->
-    <string name="presets_dialog_title">選擇預設</string>
-    <string name="advanced_settings_kcal">顯示顏色校準</string>
-    <string name="cat_colormanagement">顏色設置</string>
-    <string name="cat_calibration">顯示校準</string>
-    <string name="kcal_enabled">開啟</string>
-    <string name="kcal_disabled">關閉</string>
-    <string name="set_on_boot">開機設置</string>
-    <string name="color_red">紅色</string>
-    <string name="color_green">綠色</string>
-    <string name="color_blue">藍色</string>
+    <string name="presets_dialog_title">选择预设</string>
+    <string name="advanced_settings_kcal">显示颜色校准</string>
+    <string name="cat_colormanagement">颜色设置</string>
+    <string name="cat_calibration">显示校准</string>
+    <string name="kcal_enabled">开启</string>
+    <string name="kcal_disabled">关闭</string>
+    <string name="set_on_boot">开机设置</string>
+    <string name="color_red">红色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_blue">蓝色</string>
     <string name="color_minimum">最小</string>
-    <string name="saturation">飽和度</string>
+    <string name="saturation">饱和度</string>
     <string name="value">值</string>
-    <string name="contrast">對比度</string>
+    <string name="contrast">对比度</string>
     <string name="hue">色相</string>
-    <string name="grayscale">灰度顯示</string>
+    <string name="grayscale">灰度显示</string>
     <string name="kcal_reset">重置</string>
 
      <!-- QS Tile -->
-     <string name="dirac_qs_tile_title">狄拉克聲音</string>
+     <string name="dirac_qs_tile_title">狄拉克声音</string>
 
      <!-- Torch -->
-     <string name="torch_title">手電筒設置</string>
-     <string name="torch_summary">手電筒白/黃控</string>
-     <string name="yellow_torch_brightness_title">黃手電筒亮度</string>
-     <string name="white_torch_brightness_title">白手電筒亮度</string>
+     <string name="torch_title">手电筒设置</string>
+     <string name="torch_summary">手电筒白/黄控</string>
+     <string name="yellow_torch_brightness_title">黄手电筒亮度</string>
+     <string name="white_torch_brightness_title">白手电筒亮度</string>
 
     <!-- Vibration Intensity -->
-    <string name="haptic_warning">設置觸覺級別過高可能會導致永久硬件損壞，使用風險自負</string>
-    <string name="haptic_summary">自定義振動強度</string>
-    <string name="vibrator_intensity_control">振動強度控制</string>
-    <string name="vmax_override_mode_title">覆蓋振動強度</string>
-    <string name="vmax_override_mode_summary">覆蓋所有通知事件的振動強度值</string>
-    <string name="system_strength_title">振動強度</string>
+    <string name="haptic_warning">设置过高的触觉反馈可能导致硬件损坏，使用风险自负</string>
+    <string name="haptic_summary">自定义振动强度</string>
+    <string name="vibrator_intensity_control">振动强度控制</string>
+    <string name="vmax_override_mode_title">覆盖振动强度</string>
+    <string name="vmax_override_mode_summary">覆盖所有通知事件的振动强度</string>
+    <string name="system_strength_title">振动强度</string>
 </resources>
