@@ -89,15 +89,14 @@ PRODUCT_COPY_FILES += \
 
 # ANT
 PRODUCT_PACKAGES += \
-    AntHalService \
-    libantradio
+    AntHalService
 
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl:32 \
     android.hardware.audio.effect@7.0-impl:32 \
     android.hardware.audio.service \
-    android.hardware.bluetooth.audio-impl \
+    android.hardware.bluetooth.audio-impl:32 \
     audio.bluetooth.default \
     audio.primary.msm8953:32 \
     audio.r_submix.default \
@@ -162,7 +161,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libcamshim \
-    libmm-qcamera \
     libui_shim \
     GrapheneOSCamera
 
@@ -196,7 +194,6 @@ PRODUCT_PACKAGES += \
     libvulkan \
     memtrack.msm8953 \
     vendor.display.config@1.0.vendor \
-    vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.mapper@2.0.vendor
 
 # Device-specific settings
@@ -245,8 +242,7 @@ PRODUCT_PACKAGES += \
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl:64 \
-    android.hardware.gatekeeper@1.0-service \
-    android.hardware.gatekeeper@1.0-service.vendor
+    android.hardware.gatekeeper@1.0-service
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -300,8 +296,7 @@ PRODUCT_PACKAGES += \
 # Keymaster HAL
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl:64 \
-    android.hardware.keymaster@3.0-service \
-    android.hardware.keymaster@3.0-service.vendor
+    android.hardware.keymaster@3.0-service
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -341,7 +336,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
@@ -390,7 +384,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     librmnetctl \
-    libcnefeatureconfig \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
