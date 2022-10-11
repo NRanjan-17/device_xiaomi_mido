@@ -97,6 +97,12 @@ vendor.display.disable_skip_validate=1
 vendor.display.perf_hint_window=50
 vendor.gralloc.enable_fb_ubwc=1
 
+# Dolby
+persist.vendor.audio_fx.current=dolby
+ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1
+vendor.audio.dolby.ds2.enabled=true
+vendor.audio.dolby.ds2.hardbypass=true
+
 # DPM
 persist.vendor.dpmhalservice.enable=1
 
