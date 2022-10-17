@@ -26,7 +26,7 @@ PRODUCT_COMPRESSED_APEX := false
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-custom
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-pixys
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -163,7 +163,7 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libcamshim \
     libui_shim \
-    GrapheneOSCamera
+    Aperture
 
 # ConfigStore
 PRODUCT_PACKAGES += \
@@ -455,3 +455,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
