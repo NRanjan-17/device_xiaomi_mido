@@ -549,4 +549,8 @@
     <!-- List of comma separated package names for which we the system will not show crash, ANR,
          etc. dialogs. -->
     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
+
+    <!-- Feature flag to store TaskSnapshot in 16 bit pixel format to save memory. -->
+    <bool name="config_use16BitTaskSnapshotPixelFormat">true</bool>
+
 </resources>
