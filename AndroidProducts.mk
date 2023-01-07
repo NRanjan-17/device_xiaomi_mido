@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mido.mk
+    $(LOCAL_DIR)/octavi_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mido-user \
-    aosp_mido-userdebug \
-    aosp_mido-eng
+    octavi_mido-user \
+    octavi_mido-userdebug \
+    octavi_mido-eng
