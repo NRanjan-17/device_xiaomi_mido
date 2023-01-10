@@ -22,6 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # OctaviOS specific flags
+OCTAVI_BUILD_TYPE := Official
+OCTAVI_BUILD_MAINTAINER := Pratyaksh&Nalinish
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
