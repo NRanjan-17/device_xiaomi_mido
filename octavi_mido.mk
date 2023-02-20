@@ -23,14 +23,14 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # OctaviOS specific flags
 OCTAVI_BUILD_TYPE := Official
-OCTAVI_BUILD_MAINTAINER := Pratyaksh&Nalinish
+OCTAVI_MAINTAINER := Pratyaksh&Nalinish
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 420
-WITH_GAPPS=true
+WITH_GAPPS := true
 
 # Inherit some common OctaviOS stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
