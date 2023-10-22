@@ -1,0 +1,8 @@
+[
+ {
+   "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "14_v3",
+    "remote": "droidx"
+ }
+]
