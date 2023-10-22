@@ -165,3 +165,6 @@ zygote.critical_window.minute=10
 
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
+
+# DroidX
+ro.droidx.maintainer=SahilxNalinish
