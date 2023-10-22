@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mido.mk
+    $(LOCAL_DIR)/pixelage_mido.mk
+
+COMMON_LUNCH_CHOICES := \
+    pixelage_mido-ap4a-user \
+    pixelage_mido-ap4a-userdebug \
+    pixelage_mido-ap4a-eng
