@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mido.mk
+    $(LOCAL_DIR)/blaze_mido.mk
+
+COMMON_LUNCH_CHOICES := \
+    blaze_mido-user \
+    blaze_mido-userdebug \
+    blaze_mido-eng
