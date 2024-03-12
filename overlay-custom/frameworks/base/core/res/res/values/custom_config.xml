@@ -74,4 +74,16 @@
 
     <!-- Whether to cancel fingerprint operation if not idle -->
     <bool name="config_fpCancelIfNotIdle">true</bool>
+
+    <!-- Build properties from a GMS certified device -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+        <item>griffin_retcn</item>
+        <item>griffin</item>
+        <item>motorola</item>
+        <item>motorola</item>
+        <item>XT1650-05</item>
+        <item>motorola/griffin_retcn/griffin:6.0.1/MCC24.246-37/42:user/release-keys</item>
+        <item>2016-07-01</item>
+        <item>MCC24.246-37</item>
+    </string-array>
 </resources>
