@@ -371,8 +371,6 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.backlight.rc \
-    init.backlight.sh \
     init.class_main.sh \
     init.goodix.sh \
     init.qcom.early_boot.sh \
