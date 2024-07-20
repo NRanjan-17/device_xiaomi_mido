@@ -346,8 +346,15 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
+    libopus.vendor \
+    libstagefright_amrnb_common.vendor \
+    libstagefright_enc_common \
+    libstagefright_enc_common.vendor \
     libstagefrighthw \
-    libstagefright_enc_common
+    libstagefright_softomx_plugin.vendor \
+    libstagefright_softomx.vendor \
+    libvorbisidec.vendor \
+    libvpx.vendor
 
 # Power
 PRODUCT_PACKAGES += \
