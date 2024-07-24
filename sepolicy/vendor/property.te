@@ -4,6 +4,9 @@ vendor_public_prop(vendor_fp_prop);
 # mwqem property
 vendor_restricted_prop(vendor_mwqem_prop);
 
+# ro.hardware.chipname
+vendor_public_prop(deprecated_soc_prop);
+
 # slm property
 vendor_restricted_prop(vendor_slm_prop);
 
