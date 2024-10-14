@@ -77,6 +77,12 @@ vendor.gralloc.enable_fb_ubwc=1
 # DRM
 drm.service.enabled=true
 
+# Dex2oat
+dalvik.vm.dex2oat-cpu-set=4,5,6,7
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
+dalvik.vm.image-dex2oat-threads=4
+
 # Frp
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
