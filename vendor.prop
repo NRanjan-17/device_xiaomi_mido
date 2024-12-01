@@ -84,9 +84,6 @@ dalvik.vm.dex2oat-threads=4
 dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
 dalvik.vm.image-dex2oat-threads=4
 
-# Frp
-ro.frp.pst=/dev/block/bootdevice/by-name/config
-
 # HEH filename encryption is being dropped
 ro.crypto.volume.filenames_mode=aes-256-cts
 
