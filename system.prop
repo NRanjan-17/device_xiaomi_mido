@@ -46,6 +46,7 @@ pm.dexopt.shared=quicken
 debug.egl.hw=0
 debug.enable.sglscale=1
 debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
 debug.mdpcomp.logs=0
 debug.renderengine.backend=skiaglthreaded
 debug.sf.enable_gl_backpressure=false
