@@ -96,9 +96,6 @@ vendor.vidc.disable.split.mode=1
 # Hardware key
 qemu.hw.mainkeys=1
 
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.data.iwlan.enable=true
