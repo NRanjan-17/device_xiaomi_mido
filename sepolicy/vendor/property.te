@@ -12,3 +12,6 @@ vendor_restricted_prop(vendor_slm_prop);
 
 # Wi-Fi
 vendor_internal_prop(vendor_wifi_prop);
+
+# Power HAL
+vendor_public_prop(vendor_power_prop);

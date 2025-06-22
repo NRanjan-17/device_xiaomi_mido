@@ -70,3 +70,6 @@
 
 # Vibrator
 /sys/module/qti_haptics/parameters/vmax_mv_override          u:object_r:sysfs_vibrator:s0
+
+# Power
+/vendor/bin/hw/android\.hardware\.power-service\.lineage-libperfmgr 	       u:object_r:hal_power_default_exec:s0
