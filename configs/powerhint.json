@@ -238,15 +238,6 @@
       ]
     },
     {
-      "Name": "PowerHALAudioState",
-      "Path": "vendor.powerhal.audio",
-      "Values": [
-        "AUDIO_STREAMING_LOW_LATENCY",
-        ""
-      ],
-      "Type": "Property"
-    },
-    {
       "Name": "PowerHALRenderingState",
       "Path": "vendor.powerhal.rendering",
       "Values": [
@@ -400,30 +391,6 @@
       "Node": "GPUMinFreq",
       "Duration": 0,
       "Value": "650000000"
-    },
-    {
-      "PowerHint": "AUDIO_LAUNCH",
-      "Node": "CPUBigClusterMinFreq",
-      "Duration": 2000,
-      "Value": "1401600"
-    },
-    {
-      "PowerHint": "AUDIO_LAUNCH",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 2000,
-      "Value": "67"
-    },
-    {
-      "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
-      "Node": "PowerHALAudioState",
-      "Duration": 0,
-      "Value": "AUDIO_STREAMING_LOW_LATENCY"
-    },
-    {
-      "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 0,
-      "Value": "67"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
