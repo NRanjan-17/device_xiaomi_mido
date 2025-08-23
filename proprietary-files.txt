@@ -3,7 +3,7 @@
 # Current blobs with ELF checks disabled:
 # libmmcamera_faceproc, libmmcamera_faceproc2 depends on NDK libc and build is unable to resolve its symbols
 
-# ADSP - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# ADSP - from FP3-6.A.035.5-gms-921df471-user
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
 vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|8f0eb84d3eb5fc0f683ef7b975b75044d56f513e
@@ -22,7 +22,7 @@ vendor/lib64/libfastcvopt.so|b68d2ce2a17193a5c91cadb1291fa9ea69ee80b2
 vendor/lib64/libmdsprpc.so|f2cf241d1ea01ad13da6232717abceee138347a6
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|b6fa958d634eed5748c8f359b9104e2edf5aa20f
 
-# ADSP modules - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# ADSP modules - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib/rfsa/adsp/libadsp_fd_skel.so|677d2932dac248049f031fc5893163e22b49439a
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
 vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
@@ -31,11 +31,11 @@ vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|944169db3ac67056b92ef4f850f69346958370b5
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 
-# ANT+ - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# ANT+ - from FP3-6.A.035.5-gms-921df471-user
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so|2bad2579ce576c46af6a50ee6687bd92fa7f76cd
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|6e2b594b44552b42000164c091af5cf7a4c508f5
 
-# Audio - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Audio - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib/libacdb-fts.so|458980ecf3ba88c4e6d4862af727ac8b52a8c943
 vendor/lib/libacdbloader.so|8e5758fbaa7a1c717d7ff15851972951697a0ee2
 vendor/lib/libacdbrtac.so|2bfe2d2c49833b37dee10d2776d97bb368d5a1a5
@@ -54,7 +54,7 @@ etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
-# Bluetooth - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Bluetooth - from FP3-6.A.035.5-gms-921df471-user
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|73d7132773572d87bdac6b5e454573e79d35316c
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1e238b1e84d889f424001f5134f0d2994d13251a
@@ -714,7 +714,7 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor|d9f1aa7f93b928f42499d613d20ccbc60f279097
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
-# DRM - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# DRM - from FP3-6.A.035.5-gms-921df471-user
 vendor/bin/qseecomd|5b40595c23a54d13fb611311a4ab9b22a9428e86
 vendor/lib/libQSEEComAPI.so|2ab0e804dfc482a60a8f02247a6adf2435a41e6d
 vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
@@ -732,7 +732,7 @@ vendor/lib64/libsecureui.so|1cb5b3e219c31b6fe5e7ba5b27d434e045e085ed
 vendor/lib64/libsecureui_svcsock.so|ba9f7aa7605e54110afea5d9921381f6e6d71a19
 vendor/lib64/libssd.so|5b9ac8a457118b1e1b80f87fdc0e78d916ee099a
 
-# DRM (Widevine) - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# DRM (Widevine) - from FP3-6.A.035.5-gms-921df471-user
 vendor/bin/hw/android.hardware.drm-service.widevine|cdbd2b11c53df4c9151317d9990914d6fe6e526c
 vendor/etc/init/android.hardware.drm-service.widevine.rc|54c79ef531c9c135fa234a8515b3d37f0e1ccc4d
 vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml|7e13b6628572b1cdd76351b744e2805d4e6f2dd9
@@ -747,19 +747,19 @@ lib64/libfp_client.so:vendor/lib64/libfp_client.so
 lib64/libfpnav.so:vendor/lib64/libfpnav.so
 lib64/libfpservice.so:vendor/lib64/libfpservice.so
 
-# FM Radio - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# FM Radio - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|a7c3fdcdfdf2d982b04baa89e0e4dc5f5d505bf7
 
-# Gatekeeper - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Gatekeeper - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib64/hw/gatekeeper.msm8953.so|d760257a98254b9e87ae258e267b1a45a0ed7ecb
 
-# GPS - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# GPS - from FP3-6.A.035.5-gms-921df471-user
 vendor/bin/loc_launcher|923d85bd727fb809b43fa86adbf739dd2b55285c
 vendor/bin/lowi-server;DISABLE_CHECKELF|5d18cc8854549c366f63cdce29178eb48c9b24b0
 vendor/bin/xtra-daemon|0d15669c226784e4033ddee6cf396c39ff3d2bdf
 vendor/etc/apdr.conf|52c9b4265e55c87ddf07c9b60817b3c09420712a
-vendor/etc/izat.conf|a795b79b68e3705c0334432dded0c0d246f47cb3
-vendor/etc/lowi.conf|a676234460033da29f845a645cc1faf4172efa26
+vendor/etc/izat.conf|2ac768473abee2bf6af0bbc59233d30562e9fb22
+vendor/etc/lowi.conf|2045e83483849a124e5fef052b59190f1b784df0
 vendor/etc/sap.conf|b5ea86d9d9ee36dc13194474d343dae36f6fa032
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
@@ -790,7 +790,7 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so|218e7e15a1d3b58bb8adb695e7b37036977c
 vendor/lib64/vendor.qti.gnss@4.0.so|7ba7853e772806f98fe60243542498a146dfe248
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
 
-# Graphics - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Graphics - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib/egl/eglSubDriverAndroid.so|72f727554575728006e8ac05b0ad714481259690
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|b27eabcb8a90912d915f2fa3061116642e16d300
 vendor/lib/egl/libGLESv1_CM_adreno.so|d7afdc835b962b30580eec884ede914a869ef9bc
@@ -820,7 +820,7 @@ vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6
 vendor/lib64/libllvm-glnext.so|8b96ab94cd535c163d0548a5802fae9af4930fb7
 vendor/lib64/libmm-hdcpmgr.so|faf9491a8b15b9ca98a71e216ed94a61eca87540
 
-# Graphics - Postprocessing - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Graphics - Postprocessing - from FP3-6.A.035.5-gms-921df471-user
 vendor/bin/hw/vendor.display.color@1.0-service|815cc36f3722fbfb5fdd52f6678309d207888038
 vendor/bin/mm-pp-dpps|c04b41c500b1bcf81cb605b3ef0b3b1d5e8320c3
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
@@ -828,7 +828,7 @@ vendor/lib64/libdisp-aba.so|4d364bb0699346a1fa57b9033f28d2a25c80ec0c
 vendor/lib64/vendor.display.color@1.0.so|f80b69b96c3ff6a1eb865740de95f67c67be785a
 vendor/lib64/vendor.display.postproc@1.0.so|8ec8b1c4764eda08ed1154f3487ef0a8f0ad5345
 
-# Graphics - SDM - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Graphics - SDM - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib/libscalar.so|c78e4b32170501fd85daa8804aaa54afbcb40dd2
 vendor/lib/libsdm-color.so|6384a5eef8062889cf9e34e6eea0026fbfca44e9
 vendor/lib/libsdm-diag.so|62e295e92a09eb07ee77966c775ef1b136198a5e
@@ -842,7 +842,7 @@ vendor/lib64/libsdm-disp-vndapis.so|8e92d1f17735c26658c17148da6e1882b5bc6fb0
 vendor/lib64/libsdmextension.so|4428ff01496cc0c07f623fb813eb8e0047df1ecc
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
-# Graphics - Vulkan - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Graphics - Vulkan - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib/hw/vulkan.adreno.so|d8605174a447fe05976ed195318797f73a943ed5
 vendor/lib64/hw/vulkan.adreno.so|242ba0af54ad1467998c8df1345b85d568889a4a
 
@@ -860,16 +860,16 @@ vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 vendor/bin/msm_irqbalance|e5706bc0acab394b53fafdc1d7f342f69c6f5649
 vendor/etc/msm_irqbalance.conf|3e45e1da03ab49ce9d3f855011aca00f1e417a53
 
-# Keystore - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Keystore - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib64/hw/keystore.msm8953.so|83a48633d4530c45e36cfb9cd7f3d63a8a5bc122
 
-# Listen - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Listen - from FP3-6.A.035.5-gms-921df471-user
 vendor/lib/libadpcmdec.so|452d1123ab4e12c4444df33322f309e2ecc2e1e4
 vendor/lib/libcapiv2svacnn.so|1796ea9fceb8ded4a1550d535ea0ad6feb45b4ef
 vendor/lib/libcapiv2vop.so|b738a575fee481914afc103e9f1fb900fd682aeb
 vendor/lib/libsmwrapper.so|1376bf567a0a225d1ac8c623db4ace9a7e3804f7
 
-# Media - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Media - from FP3-6.A.035.5-gms-921df471-user
 vendor/etc/seccomp_policy/mediacodec.policy|3dec19ed56099a36b44cc72ad04ab23b9cc22ace
 vendor/etc/seccomp_policy/mediaextractor.policy|4234a844e9b1aef37397c8cfbd19566966ecd622
 vendor/lib/libvqzip.so|c56eaffef2066339493fa6810930e58556891027
@@ -1095,7 +1095,7 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|f52f0cd5e19455eba97dea61542217d4aa5
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|beeb9324900da6582f92ffab225cc0d314bf71bd
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 
-# Sensors - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# Sensors - from FP3-6.A.035.5-gms-921df471-user
 vendor/bin/sensors.qti|cba682ce9a06fd2e1fbc3e3d63f9df524252b34d
 vendor/lib/libsensor1.so|59289e1283feea150799fd4f60b0dd146f912990
 vendor/lib/libsensor_reg.so|37916892236519fd374c7fca3b04c3f4940e697e
@@ -1115,7 +1115,7 @@ vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
-# TUI - from FP3-REL-6.A.031.5-gms-fa7632b5-user
+# TUI - from FP3-6.A.035.5-gms-921df471-user
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|f6b0e0e951394b609f0cb5c19e83a37447d9d292
