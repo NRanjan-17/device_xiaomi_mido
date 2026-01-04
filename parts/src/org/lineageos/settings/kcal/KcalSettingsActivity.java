@@ -1,23 +1,19 @@
 package org.lineageos.settings.kcal;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-
 import org.lineageos.settings.R;
 import org.lineageos.settings.Controller;
 
 public class KcalSettingsActivity extends Activity implements Controller {
-
     private KcalSettings mKcalSettingsFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         Fragment fragment = getFragmentManager().findFragmentById(android.R.id.content);
         if (fragment == null) {
             mKcalSettingsFragment = new KcalSettings();
@@ -31,32 +27,29 @@ public class KcalSettingsActivity extends Activity implements Controller {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
-                return true;
-
-            case R.id.action_reset:
-                mKcalSettingsFragment.applyValues(RED_DEFAULT + " " +
-                        GREEN_DEFAULT + " " +
-                        BLUE_DEFAULT + " " +
-                        MINIMUM_DEFAULT + " " +
-                        SATURATION_DEFAULT + " " +
-                        VALUE_DEFAULT + " " +
-                        CONTRAST_DEFAULT + " " +
-                        HUE_DEFAULT);
-                mKcalSettingsFragment.setmGrayscale(GRAYSCALE_DEFAULT);
-                mKcalSettingsFragment.setmSetOnBoot(SETONBOOT_DEFAULT);
-                return true;
-
-            case R.id.action_preset:
-                new PresetDialog().show(getFragmentManager(),
-                        KcalSettingsActivity.class.getName(), mKcalSettingsFragment);
-                return true;
-
-            default:
-                break;
+        int itemId = item.getItemId();
+        
+        if (itemId == android.R.id.home) {
+            finish();
+            return true;
+        } else if (itemId == R.id.action_reset) {
+            mKcalSettingsFragment.applyValues(RED_DEFAULT + " " +
+                    GREEN_DEFAULT + " " +
+                    BLUE_DEFAULT + " " +
+                    MINIMUM_DEFAULT + " " +
+                    SATURATION_DEFAULT + " " +
+                    VALUE_DEFAULT + " " +
+                    CONTRAST_DEFAULT + " " +
+                    HUE_DEFAULT);
+            mKcalSettingsFragment.setmGrayscale(GRAYSCALE_DEFAULT);
+            mKcalSettingsFragment.setmSetOnBoot(SETONBOOT_DEFAULT);
+            return true;
+        } else if (itemId == R.id.action_preset) {
+            new PresetDialog().show(getFragmentManager(),
+                    KcalSettingsActivity.class.getName(), mKcalSettingsFragment);
+            return true;
         }
+        
         return super.onOptionsItemSelected(item);
     }
 
