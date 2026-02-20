@@ -32,6 +32,21 @@
 
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
-    <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer> 
+    <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
+
+    <!-- The duraction of the show animation for the volume dialog in milliseconds -->
+    <integer name="config_dialogShowAnimationDurationMs">150</integer>
+
+    <!-- The duraction of the hide animation for the volume dialog in milliseconds -->
+    <integer name="config_dialogHideAnimationDurationMs">125</integer>
+
+    <!-- The number of milliseconds before the heads up notification accepts touches. -->
+    <integer name="touch_acceptance_delay">200</integer>
+
+    <!-- Whether or not child notifications that are part of a group will have shadows. -->
+    <bool name="config_enableShadowOnChildNotifications">false</bool>
+
+    <!-- Smart replies in notifications: Whether smart replies in notifications are enabled. -->
+    <bool name="config_smart_replies_in_notifications_enabled">false</bool>
 
 </resources>
