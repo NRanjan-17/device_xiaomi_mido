@@ -113,6 +113,8 @@ service thermal-engine /vendor/bin/thermal-engine
 
 on property:sys.boot_completed=1
     restart thermal-engine
+    # lower vfs cache pressure
+    write /proc/sys/vm/vfs_cache_pressure 10
 
 service vendor.wcnss-service /vendor/bin/wcnss_service
     class main
